@@ -1,4 +1,4 @@
-# Take-home challenge instructions
+# React Challenge aiming for Midweight
 
 ### Aim of this challenge:
 
