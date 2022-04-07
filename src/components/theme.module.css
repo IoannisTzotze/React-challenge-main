@@ -1,0 +1,49 @@
+
+ ::placeholder{
+     color: white;
+ }
+.input {
+    border: none;
+    border-bottom: 1.5px solid rgb(249, 249, 249);
+    transition: all 0.4s;
+    width: 400px;
+    background-color: transparent;
+    color: white;
+
+}
+.input:focus{
+    outline: none;
+    border-color: red;
+}
+.suggestionsContainer {
+    position: absolute;
+    background-color: rgba(42, 0, 0, 0.804);
+    border-radius: 10px;
+    z-index: 10;
+    
+}
+.suggestionsContainer ul {
+    list-style-type: none;
+    padding: 0px;
+}
+.suggestion a{
+    text-decoration: none !important;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.suggestion a:hover{
+    color: white;
+}
+
+.suggestion a .searchResult-text{
+    text-align: center;
+}
+
+.suggestionHighlighted {
+    background-color: rgb(106, 12, 12);
+}
+
