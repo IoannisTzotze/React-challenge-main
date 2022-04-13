@@ -17,7 +17,7 @@ const Card = (props) => {
               alt="Movie Poster"
             />
             <h1>{movie.title}</h1>
-            <h4>{movie.release_date.substr(0, 4)}</h4>
+            <h4>{movie.release_date}</h4>
             <span className={styles.minutes}>{movie.vote_average}</span>
             <p className={styles.type}>{movie.vote_count}</p>
           </div>

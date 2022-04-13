@@ -72,7 +72,7 @@ class Search extends Component {
     return (
       
       <Autosuggest
-      theme={theme}
+        theme={theme}
         suggestions={suggestions}
         onSuggestionsFetchRequested={onSuggestionsFetchRequested}
         onSuggestionsClearRequested={this.onSuggestionsClearRequested}
